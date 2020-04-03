@@ -22,6 +22,8 @@ The biotic species interactions in this dataset were mapped to terms in the Rela
 
 interactionTypeName | interactionTypeId
 --- | --- |
+visits | http://purl.obolibrary.org/obo/RO_0002618
+visits flowers of | http://purl.obolibrary.org/obo/RO_0002622
 
  
 ### Data Definitions
