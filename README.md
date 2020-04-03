@@ -13,7 +13,7 @@ This GitHub repository was cloned from [globalbioticinteractions/template-datase
 
 ### Citation
 
-Seltmann, Katja C. 2020. Biotic species interactions about bees (Anthophila) manually extracted from literature.
+2020. Biotic species interactions about bees (Anthophila) manually extracted from literature.
 
 
 ### Interaction Types
