@@ -29,7 +29,7 @@ interactionTypeName | interactionTypeId
 The definitions of the columns used in the interactions.tsv dataset are described here. If these correspond with Darwin Core they are mapped to those classes. Some of the columns in the template were unused.
 
   * A **InteractionID** : An non-unique identifier that links two interactions as part of the same observation in the dataset.
-  * A **BasisOfRecord** [DWC:BasisOfRecord](http://rs.tdwg.org/dwc/terms/basisOfRecord) : The specific nature of the data record.
+  * A **basisOfRecord** [DWC:BasisOfRecord](http://rs.tdwg.org/dwc/terms/basisOfRecord) : The specific nature of the data record.
   * A **sourceTaxonId** [DWC:scientificNameID](http://rs.tdwg.org/dwc/terms/scientificNameID) : An identifier for the nomenclatural (not taxonomic) details of a scientific name.
   * A **sourceTaxonName** [DWC:scientificName](http://rs.tdwg.org/dwc/terms/scientificName) : The lowest level taxonomic rank that can be determined.
   * A **sourceFamilyName** [DWC:scientificName](http://rs.tdwg.org/dwc/terms/family) : The family name of the source taxon.
