@@ -63,7 +63,7 @@ The definitions of the columns used in the interactions.tsv dataset are describe
   * A **eventTime** [DWC:eventDate](http://rs.tdwg.org/dwc/terms/eventTime) : The time or interval during which an Event occurred.
   * A **referenceDoi** : This field was not populated in this dataset.
   * A **referenceCitation**  : The reference for the interaction.
-  * A **studyType**  : The type of study.
+  * A **referenceType**  : The type of reference.
   * A **enteredBy**  : The person entering the data.
   * A **notes**  : Notes about the database entry.
 
