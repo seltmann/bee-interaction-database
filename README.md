@@ -47,7 +47,7 @@ The definitions of the columns used in the interactions.tsv dataset are describe
   * A **experimentalConditionId** : 
   * A **targetTaxonId** [DWC:scientificNameID](http://rs.tdwg.org/dwc/terms/scientificNameID) : An identifier for the nomenclatural (not taxonomic) details of a scientific name.
   * A **targetTaxonName** [DWC:scientificName](http://rs.tdwg.org/dwc/terms/scientificName) : The lowest level taxonomic rank that can be determined.
-  * A **targetFamilyName** [DWC:scientificName](http://rs.tdwg.org/dwc/terms/family) : The family name of the source taxon.
+  * A **targetFamilyName** [DWC:family](http://rs.tdwg.org/dwc/terms/family) : The family name of the source taxon.
   * A **targetCommonName** [DWC:vernacularName](http://rs.tdwg.org/dwc/terms/Taxon) : A common or vernacular name.
   * A **country** [DWC:country](http://rs.tdwg.org/dwc/terms/country)
   * A **stateProvince** [DWC:locality](http://rs.tdwg.org/dwc/terms/stateProvince)
