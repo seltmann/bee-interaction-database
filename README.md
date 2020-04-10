@@ -24,6 +24,7 @@ interactionTypeName | interactionTypeId
 --- | --- |
 visits | http://purl.obolibrary.org/obo/RO_0002618
 visits flowers of | http://purl.obolibrary.org/obo/RO_0002622
+eats | http://purl.obolibrary.org/obo/RO_0002470
 
 
 ### Other Properties
