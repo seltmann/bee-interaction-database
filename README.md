@@ -25,6 +25,16 @@ interactionTypeName | interactionTypeId
 visits | http://purl.obolibrary.org/obo/RO_0002618
 visits flowers of | http://purl.obolibrary.org/obo/RO_0002622
 
+
+### Other Properties
+
+propertyTypeName | propertyTypeId
+--- | --- |
+in nature | http://purl.obolibrary.org/obo/ENVO_01001226
+male | http://purl.obolibrary.org/obo/FBcv_0000333
+female | http://purl.obolibrary.org/obo/FBcv_0000334
+flower | http://purl.obolibrary.org/obo/PO_0009046
+
  
 ### Data Definitions
 
@@ -76,6 +86,7 @@ Literature used in this project is recorded on each record. If you have a new pa
 
 
 ### Data Issues
+Interactions are focused at genus and below for bees.
 
 
 
