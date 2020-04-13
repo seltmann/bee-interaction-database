@@ -20,11 +20,13 @@ This GitHub repository was cloned from [globalbioticinteractions/template-datase
 
 The biotic species interactions in this dataset were mapped to terms in the Relations Ontology (RO).
 
-interactionTypeName | interactionTypeId
---- | --- |
-visits | http://purl.obolibrary.org/obo/RO_0002618
-visits flowers of | http://purl.obolibrary.org/obo/RO_0002622
-eats | http://purl.obolibrary.org/obo/RO_0002470
+interactionTypeName | interactionTypeId | description
+--- | --- | --- |
+visits | http://purl.obolibrary.org/obo/RO_0002618 |
+visits flowers of | http://purl.obolibrary.org/obo/RO_0002622 |
+eats | http://purl.obolibrary.org/obo/RO_0002470 |
+(biotically) interacts with | http://purl.obolibrary.org/obo/RO_0002437 | An interaction relationship in which at least one of the partners is an organism and the other is either an organism or an abiotic entity with which the organism interacts.
+ecologically co-occurs with | http://purl.obolibrary.org/obo/RO_0008506 | An interaction relationship describing organisms that often occur together at the same time and space or in the same environment.
 
 
 ### Other Properties
