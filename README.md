@@ -47,10 +47,13 @@ The definitions of the columns used in the interactions.tsv dataset are describe
   * A **basisOfRecord** [DWC:BasisOfRecord](http://rs.tdwg.org/dwc/terms/basisOfRecord) : The specific nature of the data record. For literature use LiteratureRecord.
   * A **sourceTaxonId** [DWC:scientificNameID](http://rs.tdwg.org/dwc/terms/scientificNameID) : An identifier for the nomenclatural (not taxonomic) details of a scientific name.
   * A **sourceTaxonName** [DWC:scientificName](http://rs.tdwg.org/dwc/terms/scientificName) : The lowest level taxonomic rank that can be determined.
+  * A **sourceVerbatimName** : An OTU, morphospecies or other designation of the taxon.
   * A **sourceFamilyName** [DWC:family](http://rs.tdwg.org/dwc/terms/family) : The family name of the source taxon.
   * A **sourceCommonName** [DWC:vernacularName](http://rs.tdwg.org/dwc/terms/Taxon) : A common or vernacular name.
   * A **sourceSexName** [DWC:sex](http://rs.tdwg.org/dwc/terms/sex) : The sex of the biological individual(s) represented in the Occurrence.
   * A **sourceSexID**  : Identifer for the sex name.
+  * A **sourceLifeStageName** [DWC:sex](http://rs.tdwg.org/dwc/terms/lifeStage) : TThe age class or life stage of the biological individual(s) at the time the Occurrence was recorded.
+  * A **sourceAssociatedSequences** [DWC:sex](http://rs.tdwg.org/dwc/terms/associatedSequences) : 	A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of genetic sequence information associated with the Occurrence.
   * A **interactionTypeId** : Identifier for the interaction type.
   * A **isNegated** : This field is presently not supported in GloBI. It is intended to relate that a specific interaction was explicitly not observed.
   * A **interactionTypeName** : A interaction type (ex. eats, piercing). The name of the interaction type should be the name as it is listed in the original text, which is not always the name of the term it is mapped to. As long as the definition to the mapping is compatible with the ```interactionTypeName```, it is usable as a ```interactionTypeId```.
@@ -60,8 +63,11 @@ The definitions of the columns used in the interactions.tsv dataset are describe
   * A **experimentalConditionId** : 
   * A **targetTaxonId** [DWC:scientificNameID](http://rs.tdwg.org/dwc/terms/scientificNameID) : An identifier for the nomenclatural (not taxonomic) details of a scientific name.
   * A **targetTaxonName** [DWC:scientificName](http://rs.tdwg.org/dwc/terms/scientificName) : The lowest level taxonomic rank that can be determined.
+  * A **targetVerbatimName** : An OTU, morphospecies or other designation of the taxon.
   * A **targetFamilyName** [DWC:family](http://rs.tdwg.org/dwc/terms/family) : The family name of the source taxon.
   * A **targetCommonName** [DWC:vernacularName](http://rs.tdwg.org/dwc/terms/Taxon) : A common or vernacular name.
+  * A **targetLifeStageName** [DWC:sex](http://rs.tdwg.org/dwc/terms/lifeStage) : TThe age class or life stage of the biological individual(s) at the time the Occurrence was recorded.
+  * A **targetAssociatedSequences** [DWC:sex](http://rs.tdwg.org/dwc/terms/associatedSequences) : 	A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of genetic sequence information associated with the Occurrence.
   * A **country** [DWC:country](http://rs.tdwg.org/dwc/terms/country) : The name of the country or major administrative unit in which the Location occurs.
   * A **stateProvince** [DWC:stateProvince](http://rs.tdwg.org/dwc/terms/stateProvince) : The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the Location occurs.
   * A **county** [DWC:county](http://rs.tdwg.org/dwc/terms/county) : The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs.
