@@ -88,7 +88,7 @@ The definitions of the columns used in the interactions.tsv dataset are describe
   * **referenceCitation**  : The reference for the interaction.
   * **referenceType**  : The type of reference.
   * **primarySource**  : Is the reference the primary source for the observation (TRUE/FALSE)? If it is not, include the primary source citation in the notes.
-  * **other traits** : key:value list (delimited by semicolons) for describing other traits. These include body size, nesting behavior, and any other traits that are not considered biotic interactions.
+  * **otherTraits** : key:value list (delimited by semicolons) for describing other traits. These include body size, nesting behavior, and any other traits that are not considered biotic interactions.
   * **enteredBy**  : The person entering the data.
   * **notes**  : Notes about the database entry.
 
