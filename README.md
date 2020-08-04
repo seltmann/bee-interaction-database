@@ -7,18 +7,18 @@
 
 ### Description
 
-bee-interaction-database is a repository for interaction data about bees (Hymenoptera). The observations are from the literature and focused on food, parasites and other interactions of bees in North America.
+bee-interaction-database is a repository for interaction and ecological trait data about bees (Hymenoptera). The observations are from the literature and focused on food, parasites, nesting biology, body size and other bee traits.
 
 This GitHub repository was cloned from [globalbioticinteractions/template-dataset](https://github.com/globalbioticinteractions/template-dataset), which includes a blank interactions.tsv, README and globi.json. GloBI requires that the interactions.tsv be called interactions.tsv and for the globi.json file to exist. Some column headers of inteteractions.tsv file was modified from the cloned template, but follow the naming conventions.
 
 ### Citation
 
-2020. Biotic species interactions about bees (Anthophila) manually extracted from literature.
+2020. Biotic species interactions and ecological traits about bees (Anthophila) manually extracted from literature.
 
 
-### Interaction Types
+### BioticInteraction Types
 
-The biotic species interactions in this dataset were mapped to terms in the Relations Ontology (RO).
+The biotic species interactions in this dataset were mapped to terms in the Relations Ontology (RO). Biotic interactions are best viewed through [Global Biotic Interactions](https://www.globalbioticinteractions.org/)
 
 interactionTypeName | interactionTypeId | description
 --- | --- | --- |
@@ -37,6 +37,9 @@ in nature | http://purl.obolibrary.org/obo/ENVO_01001226
 male | http://purl.obolibrary.org/obo/FBcv_0000333
 female | http://purl.obolibrary.org/obo/FBcv_0000334
 flower | http://purl.obolibrary.org/obo/PO_0009046
+
+### otherTraits
+Presently, otherTraits are listed as a key:value list (delimited by semicolons). These include body size, nesting behavior, and any other traits that are not considered biotic interactions. Trait terms are following [Encyclopedia of Life - TraitBank](https://eol.org/traitbank)
 
  
 ### Data Definitions
