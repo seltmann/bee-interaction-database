@@ -39,7 +39,7 @@ female | http://purl.obolibrary.org/obo/FBcv_0000334
 flower | http://purl.obolibrary.org/obo/PO_0009046
 
 ### otherTraits
-Presently, otherTraits are listed as a key:value list (delimited by semicolons). These include body size, nesting behavior, and any other traits that are not considered biotic interactions. Trait terms are following [Encyclopedia of Life - TraitBank](https://eol.org/traitbank)
+Presently, otherTraits are listed as a key:value list (delimited by semicolons). These include body size, nesting behavior, and any other traits that are not considered biotic interactions. Trait terms are following [Encyclopedia of Life - TraitBank](https://eol.org/traitbank). Traits are defined as being either from the source or target taxon. They can be sourceGeneralObservation/targetGeneralObservation, which indicate overall study results, or sourceCommonKnowledge/targetCommonKnowledge, which indicates general knowledge about the taxon.
 
  
 ### Data Definitions
