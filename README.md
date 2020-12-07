@@ -1,4 +1,5 @@
 ## Bee Interaction Database
+This repository has been depricated. Please see [Bee Interaction Database](https://github.com/Extended-Bee-Network/bee-interaction-database) for the active version.
 
 [![Build Status](https://travis-ci.org/seltmann/bee-interaction-database.svg)](https://travis-ci.org/seltmann/bee-interaction-database)  [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:seltmann/bee-interaction-database)](http://globalbioticinteractions.org/?accordingTo=globi:seltmann/bee-interaction-database) 
 
