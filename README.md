@@ -1,5 +1,4 @@
 ## Bee Interaction Database
-This repository is depricated. Please see the Extended Bee Network for the active [Bee Interaction and Trait Database](https://github.com/Extended-Bee-Network/bee-interaction-database)
 
 [![Build Status](https://travis-ci.org/seltmann/bee-interaction-database.svg)](https://travis-ci.org/seltmann/bee-interaction-database)  [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:seltmann/bee-interaction-database)](http://globalbioticinteractions.org/?accordingTo=globi:seltmann/bee-interaction-database) 
 
@@ -96,6 +95,7 @@ The definitions of the columns used in the interactions.tsv dataset are describe
   * **referenceCitation**  : The reference for the interaction.
   * **referenceType**  : The type of reference.
   * **primarySource**  : Is the reference the primary source for the observation (TRUE/FALSE)? If it is not, include the primary source citation in the notes.
+  * **primarySourceReference** : If the reviewed article is not the primary source of the information (recorded as FALSE in primarySource) the citation for the primarySource is included here. If the reviewed article is the primary source this field is left blank.
   * **enteredBy**  : The person entering the data.
   * **notes**  : Notes about the database entry.
 
